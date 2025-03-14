@@ -104,4 +104,3 @@ This output is nearly perfect, except for the confusion between `心理` and `�
 There are two mistakes. For the first one, the verb is missing. If our program can recognize parts of speech, it could avoid this mistake. (One possible improving direction)
 For the second one, the model doesn't consider the whole word `能歌善舞`,
 which and its pronunciation is unique. Our program is lack of vision: it only considers the current character and the previous one. (Use $m$-model, $m>2$)
->>>>>>> b35368d (commit)
