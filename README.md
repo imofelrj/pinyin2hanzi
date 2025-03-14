@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# pinyin2hanzi
-=======
 # Report of Input Method for Pinyin to Hanzi
 Qiuzhen College, Tsinghua University
 imofelrj, li-rj22@mails.tsinghua.edu.cn, Mar 15th, 2025
