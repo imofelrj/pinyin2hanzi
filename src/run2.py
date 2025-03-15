@@ -528,7 +528,8 @@ def viterbi(obs): # qing hua da xue
                     prob = hanzi_count.get(hanzi, 0) / total_hanzi
                     if prob == 0:
                         continue
-                    prob = -log(prob)
+                    prob = -log((1-ratio)*prob)
+                    # prob = -log(prob)
                     path = Path(hanzi, hanzi, prob) # to be determined, dont know probability of a single hanzi
                     paths.append(path) # path of generation 0
         else:
